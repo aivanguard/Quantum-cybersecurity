@@ -4,3 +4,5 @@ Providing both classical and quantum solutions to Q day threats
 
 # QuantumRNG overview
 Quantum Cryptography with Quantum random number generation is possible through a simple quantum circuit computation or through an entropically non deterministic process such as vacuum fluctuations or photon noise fluctuations.  IBM Qiskit is a python based SDK to create your circuit on a quantum computer before running on a backend quantum processor like IQM Resonace . The random number can be used as a seed for key generation with a python based Cryptographic library such as PyCryptodome and (optionally) you can also use the built in Python library, Crytography Fernet
+
+It's possible to go one step further in the quantum gates used to generate random numbers. With a Bell state you introduce an entanglement in the random number generation and not just a superposition of states. A hardware device based on this approach was originated by [Quantinuum](https://www.quantinuum.com/glossary-item/quantum-random-number-generator) in their original RNG source. 
