@@ -15,6 +15,7 @@ When it may not be possible to implement a quantum device for the key generation
 A cryptographic bill of materials approach would be less exhaustive to start this process instead of conducting a full cryptographic inventory. A starting point would be legacy monolithic application software where the encryption keys were hard coded in the running application. When it’s too architecturally complex to refactor and screen the software for replacing a vulnerable legacy key (e.g. RSA) for a PQC generated key, an interim solution is to have both keys combined in the key verification stage for data in motion as an example (TLS support included for PQC).
 
 One vendor has shown this in this illustration for a hybrid classical PQC key deployment per this the strategy
-<img width="1509" height="987" alt="image" src="https://github.com/user-attachmentassets/d8b86a3e-5131-4ef4-bade-80b2b7f48526" />
+<img width="1509" height="987" alt="image" src="https://github.com/user-attachments/assets/d75a5c76-ee4a-48e5-bda2-a7097eb637a5" />
+
 
 
