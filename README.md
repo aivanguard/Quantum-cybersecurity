@@ -17,5 +17,15 @@ A cryptographic bill of materials approach would be less exhaustive to start thi
 One vendor has shown this in this illustration for a hybrid classical PQC key deployment per this the strategy
 <img width="1509" height="987" alt="image" src="https://github.com/user-attachments/assets/d75a5c76-ee4a-48e5-bda2-a7097eb637a5" />
 
+An interim preliminary solution is to have both keys combined in the key verification stage for data in motion as an example (including TLS support included for PQC) or application servers. You would set up  an agile proxy server in front of the vulnerable data application server to handle both classical and PQC keys or a hybrid of both types. 
+Use a proxy layer in with all systems that were identified to be vulnerable to quantum harvest now decrypt later hacking with this example in this pattern.
+<img width="1378" height="1001" alt="image" src="https://github.com/user-attachments/assets/2a136771-c03a-4517-9451-07f41c1f4361" />
+
+The Forrester report describing  this approach can be obtained from the QuSecure source.
+
+
+
+
+
 
 
